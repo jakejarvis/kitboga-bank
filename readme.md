@@ -4,3 +4,7 @@ If you're interested in creating some alternative "themes" you can pull this and
 css file in a folder like this: /themes/<yourtheme>/template.css 
 
 At this time I am not looking to update the html, though i may work with the community to do this in the future. 
+
+Your themes on separate branches will be reviewed by the community and may be used on stream so please only include code / images you have the rights to use and are able to give me (kitboga) the rights to broadcast and use. 
+
+Thanks :)
