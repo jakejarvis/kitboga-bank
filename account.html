@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="themes/basic/template.css">
+        <title>Your Account Details</title>
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  </head>
+  <body>
+
+  	<div class="preheader">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+				<nav>
+					<ul> 
+						<li>Products</li>
+						<li>Services</li>
+						<li>Help</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+<header>	
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2 style="margin-top:8px;">
+				<span id="logo" class="oi" data-glyph="flag"></span>
+				South Federal Holdings of Illinois</h2>
+
+				<div class="header-menu">
+											<nav>
+							<ul class="nav mx-auto">
+								<li class="nav-item"><a class="nav-link" href="/account">Your Accounts</a></li>
+								<li class="nav-item"><a class="nav-link" href="/transfer">Pay & Transfer</a></li>
+								<li class="nav-item"><a class="nav-link" href="#" onclick="triggerInactive()">Contact</a></li>
+								<li class="nav-item"><a class="nav-link"  id="log" href="/logout.php">Logout</a></li>
+							</ul>
+							</nav>
+									</div>
+
+			</div>
+		</div>
+	</div>
+</header>
+<div class="menu">
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+
+									<nav>
+						<ul class="nav mx-auto">
+							<li class="nav-item"><a class="nav-link" href="/account">Your Accounts</a></li>
+							<li class="nav-item"><a class="nav-link" href="/transfer">Pay & Transfer</a></li>
+							<li class="nav-item"><a class="nav-link" href="#" onclick="triggerInactive()">Contact</a></li>
+							<li class="nav-item"><a class="nav-link"  id="log" href="/logout.php">Logout</a></li>
+						</ul>
+					</nav>
+								</div>
+			</div>
+	</div>
+</div>
+
+    <div class="container" id="stuff">
+
+    	<div id="loading">
+    		<h3>Please Just Wait A Moment...</h3>
+    	</div>
+        <br />
+
+        <div id="loginmessage">
+            Welcome Back! Last Login: Feb 13, 2020 12pm        </div>
+
+        <div id="mainrow" class="row">
+
+            <div class="col-md-4">
+
+                        <div id="notifications">
+
+                            <h4>Welcome Back! <span>Feb 13, 2020</span></h4>
+                            
+                            <p><span class="oi" data-glyph="envelope-open" title="icon name" aria-hidden="true"></span> You have 5 unread documents</p>
+                            <button id="inb" class="btn btn-large">View Inbox</button>
+
+                        </div>
+
+
+
+
+                        <div class="card">
+                            <div class="card-body">
+
+                                <h5 class="full">Quick Links</h5>
+                                <ul>
+                                    <li><a href="#">Order New Checks</a></li>
+                                    <li><a href="#">Lost Or Stolen Card</a></li>
+                                    <li><a href="#">Open New Account</a></li>
+                                    <li><a href="#">Contact Support</a></li>
+                                </ul>
+                            </div>
+                        </div>        
+
+                        <!--
+                        <div class="card">
+                            <div class="card-body">
+
+                                <h4 class="card-title">Monthly Spending Report</h4>
+                                <br />
+                                <p>Get a breakdown of your monthly spending habits.</p>
+                                <a class="btn btn-large" href="#">View Now</a>
+                            </div>
+                        </div>
+                        -->
+
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Live Better</h4>
+                                <img src="https://source.unsplash.com/collection/3657445" />
+                                <br /><br />
+                                <p>We have everything you'd ever need.</p>
+                                <a href="#" onclick="triggerInactive()">Learn More</a>
+                            </div>
+                        </div>
+                    
+
+                         <button id="contact" class="btn-warning">Contact Support</button>
+
+                   
+
+                 </div>
+
+            <div class="col-md-8">
+
+                
+
+                <div id="filler">
+                    <div class="row">
+                        <ul class="vertical">
+                            <li><span class="oi" data-glyph="book"></span><a href="/account/details/">All transactions</a></li>
+                            <li><span class="oi" data-glyph="calculator"></span><a href="/transfer">Make a transfer</a></li>
+                            <li><span class="oi" data-glyph="briefcase"></span><a href="#">Contact support</a></li>
+                            <li><span class="oi" data-glyph="info"></span><a href="#">Edit or add alerts</a></li>
+                            <li><span class="oi" data-glyph="document"></span><a href="/account/paperless">Go paperless</a></li>
+                            <li><span class="oi" data-glyph="grid-three-up"></span><a href="/account/profile">Edit profile</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+                    <div id="accountInfo">
+
+                        
+                            <div class="accountRow">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h5>Premium Checking <span>XXXX3198</span></h5>
+                                        <hr />
+                                        <h1>$15,123.21</h1>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <ul class="vertical">
+                                            <li><a href="/account/details/?n=3198">View transactions</a><span class="oi" data-glyph="caret-right"></span></li>
+                                            <li><a href="/transfer">Make a transfer</a><span class="oi" data-glyph="caret-right"></span></li>
+                                            <li><a class="moreactions" href="#">More actions</a><span class="oi" data-glyph="caret-right"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                            <div class="accountRow">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h5>Joint Savings <span>XXXX1329</span></h5>
+                                        <hr />
+                                        <h1>$59,141.93</h1>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <ul class="vertical">
+                                            <li><a href="/account/details/?n=1329">View transactions</a><span class="oi" data-glyph="caret-right"></span></li>
+                                            <li><a href="/transfer">Make a transfer</a><span class="oi" data-glyph="caret-right"></span></li>
+                                            <li><a class="moreactions" href="#">More actions</a><span class="oi" data-glyph="caret-right"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                            <div class="accountRow">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <h5>Money Market <span>XXXX6993</span></h5>
+                                        <hr />
+                                        <h1>$507,277.36</h1>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <ul class="vertical">
+                                            <li><a href="/account/details/?n=6993">View transactions</a><span class="oi" data-glyph="caret-right"></span></li>
+                                            <li><a href="/transfer">Make a transfer</a><span class="oi" data-glyph="caret-right"></span></li>
+                                            <li><a class="moreactions" href="#">More actions</a><span class="oi" data-glyph="caret-right"></span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                    </div>
+
+
+                    <table id="accounts" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Account Number</th>
+                                <th>Available Balance</th>
+                                <th>&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr><td><a href="/account/details/?n=3198">Premium Checking</a></td><td>XXXX3198</td><td>$ 15,123.21</td><td><a href="/transfer">Transfer</a></td></tr><tr><td><a href="/account/details/?n=1329">Joint Savings</a></td><td>XXXX1329</td><td>$ 59,141.93</td><td><a href="/transfer">Transfer</a></td></tr><tr><td><a href="/account/details/?n=6993">Money Market</a></td><td>XXXX6993</td><td>$ 507,277.36</td><td><a href="/transfer">Transfer</a></td></tr>                            <!--
+                            <tr>
+                                <td><a href="/account/investing/">Investment Portfolio</a></td>
+                                <td>****1940</td>
+                                <td>$45,539.60</td>
+                                <td><a href="/account/investing/">Details</a></td>
+                            </tr>   
+                            -->
+                        </tbody>
+                    </table>
+            </div>
+
+            <div id="activitylist" class="row">
+
+                    <h4>Your most recent transactions:</h4>
+                    <hr />
+                    <!-- insert lots of memes -->
+                    <div id="recent-box">
+                    <table id="pending" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Account</th>
+                                <th>Description</th>
+                                <th>Type</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        
+                            <tr><td>02/11</td><td>XXXX3198</td><td>PAYPAL INST XFER</td><td>Debit</td><td><span class="badge badge-danger">$ -227.09</span></td></tr><tr><td>02/11</td><td>XXXX3198</td><td>Direct Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 846.33</span></td></tr><tr><td>02/11</td><td>XXXX3198</td><td>AOL</td><td>Debit</td><td><span class="badge badge-danger">$ -46.17</span></td></tr><tr><td>02/10</td><td>XXXX3198</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 151.89</span></td></tr><tr><td>02/08</td><td>XXXX3198</td><td>Spotify</td><td>Debit</td><td><span class="badge badge-danger">$ -172.80</span></td></tr><tr><td>02/07</td><td>XXXX3198</td><td>State Farm Home & Auto</td><td>Debit</td><td><span class="badge badge-danger">$ -235.35</span></td></tr><tr><td>02/04</td><td>XXXX3198</td><td>Starbucks US*7KCR6M31L</td><td>Debit</td><td><span class="badge badge-danger">$ -28.65</span></td></tr><tr><td>02/04</td><td>XXXX3198</td><td>Petsmart US*DT6WSAGONX2I</td><td>Debit</td><td><span class="badge badge-danger">$ -72.34</span></td></tr><tr><td>02/01</td><td>XXXX3198</td><td>Cash Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 83.54</span></td></tr><tr><td>02/01</td><td>XXXX3198</td><td>Best Buy US*5T8OULXGE</td><td>Debit</td><td><span class="badge badge-danger">$ -55.62</span></td></tr><tr><td>01/31</td><td>XXXX3198</td><td>Direct Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 134.88</span></td></tr><tr><td>01/29</td><td>XXXX3198</td><td>****5782</td><td>Balance Transfer</td><td><span class="badge badge-success">$ 8.39</span></td></tr><tr><td>01/27</td><td>XXXX3198</td><td>Verizon Wireless</td><td>Debit</td><td><span class="badge badge-danger">$ -145.05</span></td></tr><tr><td>01/25</td><td>XXXX3198</td><td>Spotify</td><td>Debit</td><td><span class="badge badge-danger">$ -282.65</span></td></tr><tr><td>01/24</td><td>XXXX3198</td><td>PG&E</td><td>Debit</td><td><span class="badge badge-danger">$ -106.35</span></td></tr><tr><td>01/24</td><td>XXXX3198</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 535.78</span></td></tr><tr><td>01/20</td><td>XXXX3198</td><td>Sunoco US*XQ7ULN92FO0</td><td>Debit</td><td><span class="badge badge-danger">$ -217.15</span></td></tr><tr><td>01/20</td><td>XXXX3198</td><td>****4318</td><td>Balance Transfer</td><td><span class="badge badge-success">$ 164.99</span></td></tr><tr><td>01/18</td><td>XXXX3198</td><td>Direct Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 787.16</span></td></tr><tr><td>01/18</td><td>XXXX3198</td><td>American Airlines US*BETG105DC</td><td>Debit</td><td><span class="badge badge-danger">$ -125.48</span></td></tr><tr><td>01/18</td><td>XXXX3198</td><td>AMZN Mktp US*J2AZU</td><td>Debit</td><td><span class="badge badge-danger">$ -73.30</span></td></tr><tr><td>01/17</td><td>XXXX3198</td><td>Cash Withdrawal</td><td>Debit</td><td><span class="badge badge-danger">$ -223.04</span></td></tr><tr><td>01/17</td><td>XXXX3198</td><td>****8133</td><td>Balance Transfer</td><td><span class="badge badge-success">$ 999.32</span></td></tr><tr><td>01/16</td><td>XXXX3198</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 861.87</span></td></tr><tr><td>01/16</td><td>XXXX3198</td><td>Hulu</td><td>Debit</td><td><span class="badge badge-danger">$ -271.71</span></td></tr><tr><td>01/15</td><td>XXXX3198</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 203.11</span></td></tr><tr><td>01/14</td><td>XXXX3198</td><td>Sunoco US*W95Q7TUJZIS</td><td>Debit</td><td><span class="badge badge-danger">$ -77.63</span></td></tr><tr><td>01/14</td><td>XXXX3198</td><td>Kroger US*ZPLDEKA5TX</td><td>Debit</td><td><span class="badge badge-danger">$ -37.56</span></td></tr><tr><td>01/13</td><td>XXXX3198</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 489.81</span></td></tr><tr><td>02/02</td><td>XXXX1329</td><td>Direct Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 182.24</span></td></tr><tr><td>01/30</td><td>XXXX1329</td><td>Direct Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 559.54</span></td></tr><tr><td>01/27</td><td>XXXX1329</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 668.57</span></td></tr><tr><td>01/24</td><td>XXXX1329</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 945.14</span></td></tr><tr><td>01/22</td><td>XXXX1329</td><td>Direct Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 585.55</span></td></tr><tr><td>01/20</td><td>XXXX1329</td><td>Cash Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 916.41</span></td></tr><tr><td>01/17</td><td>XXXX1329</td><td>Direct Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 315.06</span></td></tr><tr><td>01/17</td><td>XXXX1329</td><td>****1510</td><td>Balance Transfer</td><td><span class="badge badge-success">$ 847.98</span></td></tr><tr><td>02/10</td><td>XXXX6993</td><td>****5335</td><td>Balance Transfer</td><td><span class="badge badge-success">$ 302.25</span></td></tr><tr><td>02/05</td><td>XXXX6993</td><td>****5197</td><td>Balance Transfer</td><td><span class="badge badge-success">$ 888.34</span></td></tr><tr><td>02/04</td><td>XXXX6993</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 540.08</span></td></tr><tr><td>02/04</td><td>XXXX6993</td><td>****1438</td><td>Balance Transfer</td><td><span class="badge badge-success">$ 810.16</span></td></tr><tr><td>01/29</td><td>XXXX6993</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 337.32</span></td></tr><tr><td>01/21</td><td>XXXX6993</td><td>****7451</td><td>Balance Transfer</td><td><span class="badge badge-success">$ 477.57</span></td></tr><tr><td>01/20</td><td>XXXX6993</td><td>Interest</td><td>Credit</td><td><span class="badge badge-success">$ 325.41</span></td></tr><tr><td>01/20</td><td>XXXX6993</td><td>Direct Deposit</td><td>Credit</td><td><span class="badge badge-success">$ 348.37</span></td></tr> 
+                        </tbody>
+                    </table>
+
+                </div>
+                <a href="#" id="viewall">Load More</a>
+            </div>
+
+        </div>
+
+            
+
+
+            <div class="spacer"></div>
+            <div class="spacer"></div>
+
+            <!-- ads here -->
+
+            <div class="spacer"></div>
+
+
+
+        </div>
+    
+    </div>
+    <div class="content footer">
+        <div class="container">
+
+
+            <p>Member FDIC: No. Rates and investment products are not insured.
+</p>
+<p>
+The bank information provided on this website is only valid for those living in states that end in G and no others. Any attempt to use this website without authorized access is prohibited by the 11th circuit court of the high magistrates. No offers may be made or accepted from any resident outside of these states due to various state regulations and registration requirements regarding investment products and services.</p>
+
+<p>            &copy; Copyright 2020 GGNOREE LLP, LLC, UDP.
+</p>
+        </div>
+
+    </div>
+
+    <div id="inactivityPopup">
+        <div class="iseriouslydontcare">
+            <h2>For Your Safety</h2>
+            <p>You have been safely logged out due to inactivity.</p>
+            <p>Please wait a moment and log back in. </p>
+            <p>To return to the login page <a href="/">click here</a>.</p>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/script.js"></script>
+
+    </script>
+
+  </body>
+</html>
